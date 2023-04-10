@@ -152,13 +152,13 @@ class PemohonResource extends Resource
 
     }
 
-    public static function getWidgets(): array
-    {
-    return [
-        PemohonResource\Widgets\PemohonOverview::class,
+    // public static function getWidgets(): array
+    // {
+    // return [
+    //     PemohonResource\Widgets\PemohonOverview::class,
 
-    ];
-    }
+    // ];
+    // }
 
     public static function getGloballySearchableAttributes(): array
     {

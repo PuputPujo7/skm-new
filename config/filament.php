@@ -169,7 +169,7 @@ return [
     |
     */
 
-    'dark_mode' => false,
+    'dark_mode' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -262,8 +262,9 @@ return [
     |
     */
 
-    'favicon' => null,
-
+    // 'favicon' => asset('logo-skm.png'),
+    'favicon' => 'http://localhost/127.0.0.1:8000/logo-skm.png',
+    // 'favicon' => null,
     /*
     |--------------------------------------------------------------------------
     | Default Avatar Provider
